@@ -3,6 +3,7 @@ Time was...
 the clock
 the door
 the carpet
+the window
 the mug
 the suitcase
 the table
