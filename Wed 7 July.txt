@@ -1,0 +1,56 @@
+Wed 7 July
+
+more Memuruai, redis, and memurai SQL
+
+see if can manipulate any of the md files in the memurai github docs repository
+
+When looking at the github docs repository, it led me to the 'tool' that was used to build the Memurai documenation site. It's called 'Docusaurus', and has a good little tutorial to get up and running on its use. 
+
+Went to my personal github site (hegsmeg) and created a new repository called 'docusaurus-tutorial'
+
+It then tells you to clone this repository (even though it's empty) to your local folder. So created a folder on users/johnh/ called doc_projects.
+
+Also, I had to install node.js (it's on the work laptop already, but I'm doing this on personal one) and I had git and git bash installed on it already.
+
+Opened git bash and cloned the repository to local, used the https method rather than ssh, just to not get into all that confusion for now!
+
+Ran the init command that docusaurus provides then, so after that completes, it shows the scaffolding of your proposed website. ie.
+
+root-directory
+├── Dockerfile
+├── README.md
+├── docker-compose.yml
+├── docs
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   ├── exampledoc4.md
+│   └── exampledoc5.md
+└── website
+    ├── blog
+    │   ├── 2016-03-11-blog-post.md
+    │   ├── 2017-04-10-blog-post-two.md
+    │   ├── 2017-09-25-testing-rss.md
+    │   ├── 2017-09-26-adding-rss.md
+    │   └── 2017-10-24-new-version-1.0.0.md
+    ├── core
+    │   └── Footer.js
+    ├── package.json
+    ├── pages
+    ├── sidebars.json
+    ├── siteConfig.js
+    └── static
+
+After that it gets you to create a new file in the website location (I used VIM within git bash), which is a file called hello-world.js. This is to show that you can add dynamic web pages in the form of javascript files, which will update automatically when you change the contents. 
+
+To launch the website, you just make sure you are in the website folder (cd website) and then you type npm start, and the test site opens in your browser, on port 3000, so it's http://localhost:3000
+
+When you click on various links within it, and navigate around, it's shows http://localhost:3000/help, or http://localhost:3000/blog, and then the docs site is http://localhost:3000/docs
+
+You then add a document to the docs site by manipulating the sidebars.json file. When you add your "doc9" in there after "doc1", you stop your website, and start it again to effect the changes. When you go to the docs site then, you will see 'This is Doc 9" added in the sidebar/ToC section.
+
+Tomorrow:
+
+go to the memurai repo again, see what instructions are in the readme for adding md files etc. But don't touch anything in there yet. I think I'll want to get set up on it using git extensions, so will wait a bit to do that. 
+
+For now, see what structure I can come up with and location within the memurai docs for the new Memurai SQL section and topics.
