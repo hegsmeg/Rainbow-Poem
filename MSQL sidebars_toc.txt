@@ -1,0 +1,27 @@
+Memurai Docs
+
+ Getting started
+  - Installation
+  - Configuration
+  - Logging
+  - Memory
+  - Network
+  - Windows Service
+  - Server Roles
+
+ Tools
+  - memurai-cli
+  - Persistence Consistency
+
+ Reference
+  - API
+  - Modules API
+  - Lua Scripting API
+  - Client Libraries
+
+ Memurai SQl
+  - MSQL Overview
+  - Installation
+  - Configuration
+  - MSQL commands
+
